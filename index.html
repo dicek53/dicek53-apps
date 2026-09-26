@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>dicek53 apps</title>
 <style>
-:root { --bg: #f7f7f5; --surface: #ffffff; --text: #1d1f24; --text2: #5b6068; --line: #d9dbe0; --accent: #2b5fa8; }
+:root { --bg: #f7f7f5; --surface: #ffffff; --text: #1d1f24; --text2: #5b6068; --line: #d9dbe0; --accent: #2b5fa8; --btn-fg: #ffffff; }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #14161a; --surface: #1c1f25; --text: #e6e7ea; --text2: #a3a8b1; --line: #33373f; --accent: #8ab4f8; }
+  :root { --bg: #14161a; --surface: #1c1f25; --text: #e6e7ea; --text2: #a3a8b1; --line: #33373f; --accent: #8ab4f8; --btn-fg: #14161a; }
 }
 body { margin: 0; padding: 2rem 1rem; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.7; }
 main { max-width: 760px; margin: 0 auto; }
@@ -18,6 +18,7 @@ p.lead { color: var(--text2); margin: 0 0 1.5rem; }
 .app p { margin: .2rem 0; }
 .links a { margin-right: 1rem; }
 a { color: var(--accent); }
+a.download { display: inline-block; background: var(--accent); color: var(--btn-fg); text-decoration: none; font-weight: 700; border-radius: 8px; padding: .55rem 1.2rem; margin: .4rem 0; }
 footer { color: var(--text2); font-size: .85rem; margin-top: 2rem; }
 </style>
 </head>
@@ -29,6 +30,7 @@ footer { color: var(--text2); font-size: .85rem; margin-top: 2rem; }
 <section class="app">
 <h2><a href="notaflow/">NotaFlow</a></h2>
 <p>五線譜を「読む速さ」を鍛える譜読み練習アプリ(iOS)。<br>A sight-reading trainer that measures how fast you read notation (iOS).</p>
+<p><a class="download" href="https://apps.apple.com/app/id6814306379">App Store で入手 / Get it on the App Store</a></p>
 <p class="links"><a href="notaflow/privacy/">プライバシーポリシー / Privacy Policy</a><a href="notaflow/support/">サポート / Support</a></p>
 </section>
 
